@@ -44,10 +44,10 @@
                 <legend>Perfil</legend>
 
                 <p>Gênero:</p>
-                <input id="fem" type="radio" name="userGender" value="Feminino">
+                <input id="fem" type="radio" name="userGender" value="feminino">
                 <label for="fem">Feminino</label>
 
-                <input id="masc" type="radio" name="userGender" value="Masculino">
+                <input id="masc" type="radio" name="userGender" value="masculino">
                 <label for="masc">Masculino</label>
 
                 <input id="notInformed" type="radio" name="userGender" value="notInformed">
@@ -129,8 +129,32 @@
                     <input type="color" name="userFavoriteColor" id="favoriteColor">
    
                 </fieldset>
+                
+                <fieldset>
+                    <legend>Opinião</legend>
 
+                    <p>O que você acha da qualidade do nosso serviço?</p>
+
+                    <input id="otimo" type="radio" name="userServiceOpinion" value="otimo">
+                    <label for="otimo">Ótimo</label><br>
+
+                    <input id="boa" type="radio" name="userServiceOpinion" value="boa">
+                    <label for="boa">Boa</label><br>
+                    
+
+                    <input id="regular" type="radio" name="userServiceOpinion" value="regular">
+                    <label for="regular">Regular</label><br>
+                    
+
+                    <input id="ruim" type="radio" name="userServiceOpinion" value="ruim">
+                    <label for="ruim">Ruim</label><br>
+
+                    <label for="comment">Escreva sua opnião:</label>
+                    <textarea name="userComment" id="comment" placeholder="Escreva aqui..."></textarea>
+                    
+                </fieldset>
             
+
 
             <button type="submit">Enviar</button>
         </form>
