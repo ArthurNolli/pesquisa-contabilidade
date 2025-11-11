@@ -49,7 +49,7 @@ legend{
 label{
     display: inline-block;
     margin-bottom: 5px;
-    
+
 }
 
 input, select, textarea{
@@ -70,5 +70,5 @@ input[type="checkbox"]{
 }
 
 input[type="color"]{
-    width: 40px;
+    width: 45px;
 }
