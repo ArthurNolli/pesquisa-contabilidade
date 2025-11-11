@@ -32,6 +32,7 @@ form{
     background-color: #ffffff;
     padding: 15px;
     border-radius:20px;
+    margin-bottom: 100px;
 }
 
 fieldset{
@@ -50,6 +51,11 @@ label{
     display: inline-block;
     margin-bottom: 5px;
 
+}
+
+p{
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 input, select, textarea{
@@ -71,4 +77,47 @@ input[type="checkbox"]{
 
 input[type="color"]{
     width: 45px;
+}
+
+/*
+input[type="text"]:invalid,
+input[type="number"]:invalid{
+ border-color: red;
+}
+
+input[type="text"]:valid,
+input[type="number"]:valid{
+ border-color:green;
+}*/
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color:green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: #ffffff;
 }
