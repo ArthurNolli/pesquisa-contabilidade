@@ -79,6 +79,17 @@ input[type="color"]{
     width: 45px;
 }
 
+input:focus{
+    background-color: cornflowerblue;
+    outline: none;
+}
+
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
 /*
 input[type="text"]:invalid,
 input[type="number"]:invalid{
@@ -89,7 +100,8 @@ input[type="text"]:valid,
 input[type="number"]:valid{
  border-color:green;
 }*/
-input:invalid,
+/*
+ input:invalid,
 select:invalid,
 textarea:invalid {
     border-color: red;
@@ -100,7 +112,7 @@ select:valid,
 textarea:valid {
     border-color:green;
 }
-
+*/
 button{
     width: 100px;
     height: 30px;
@@ -120,4 +132,9 @@ button[type="submit"]:hover{
 button[type="reset"]:hover{
     background-color: orangered;
     color: #ffffff;
+}
+
+small{
+    margin-bottom: 20px;
+    display: inline-block;
 }
